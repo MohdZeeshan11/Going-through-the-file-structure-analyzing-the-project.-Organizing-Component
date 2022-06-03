@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/App.css';
 import like from '../like.svg';
+
 const App = () => {
 const [count,setCount] = React.useState(0)
 const handleClick = () =>{
